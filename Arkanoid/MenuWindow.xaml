@@ -1,0 +1,104 @@
+﻿<Window x:Class="Arkanoid.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Arkanoid"
+        mc:Ignorable="d"
+        Title="Арканоид" Icon="Q.ico" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+    <Canvas x:Name="canvasStart" Width="1280" Height="700">
+        <Canvas.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Canvas.Background>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="10" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="10" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="10" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="80" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="150" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="10" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="80" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="80" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="10" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="150" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="220" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="220" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="220" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="220" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="220" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="290" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="360" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="290" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="360" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="290" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="430" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="360" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="10" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="80" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="220" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="360" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="150" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="150" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="500" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="570" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="500" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="500" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="500" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="500" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="430" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="500" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="570" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="640" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="640" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="640" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="780" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="640" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="710" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="710" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="640" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="780" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="640" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="780" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="780" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="850" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="850" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="850" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="990" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="850" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="920" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="920" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="850" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="990" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="850" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="990" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="990" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1130" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1060" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1060" Canvas.Top="220"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1200" Canvas.Top="200"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1200" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1130" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1130" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1060" Canvas.Top="180"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1200" Canvas.Top="240"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1060" Canvas.Top="280"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1200" Canvas.Top="260"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="70" Fill="Black" Canvas.Left="1200" Canvas.Top="180"/>
+        <Button x:Name="btnStart" Content="Начать игру" Canvas.Left="570" Canvas.Top="360" Width="210" Height="80" FontFamily="Verdana" FontSize="20" FontWeight="Bold" Click="btnStart_Click">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFF408" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2EFF00" Offset="1"/>
+                    <GradientStop Color="#FF00FFF3"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Canvas>
+</Window>

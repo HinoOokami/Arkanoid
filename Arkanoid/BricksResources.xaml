@@ -1,0 +1,88 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Arkanoid">
+    <Rectangle x:Key="BrickRed" x:Shared="False" Height="20" Width="70">
+        <Rectangle.Stroke>
+            <LinearGradientBrush EndPoint="0.52,1" StartPoint="0.48,0">
+                <GradientStop Color="#FF360000" Offset="0.91"/>
+                <GradientStop Color="#FFFFBEBE" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Stroke>
+        <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0.48,0" EndPoint="0.52,1">
+                <GradientStop Color="#FF420000" Offset="0.9"/>
+                <GradientStop Color="#FFE60F0F" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+    <Rectangle x:Key="BrickGreen" x:Shared="False" Height="20" Width="70">
+        <Rectangle.Stroke>
+            <LinearGradientBrush EndPoint="0.52,1" StartPoint="0.48,0">
+                <GradientStop Color="#FF023600" Offset="0.91"/>
+                <GradientStop Color="#FFC4FFBE" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Stroke>
+        <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0.48,0" EndPoint="0.52,1">
+                <GradientStop Color="#FF094200" Offset="0.9"/>
+                <GradientStop Color="#FF23E60F" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+    <Rectangle x:Key="BrickBlue" x:Shared="False" Height="20" Width="70">
+        <Rectangle.Stroke>
+            <LinearGradientBrush EndPoint="0.52,1" StartPoint="0.48,0">
+                <GradientStop Color="#FF050036" Offset="0.91"/>
+                <GradientStop Color="#FFC1BEFF" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Stroke>
+        <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0.48,0" EndPoint="0.52,1">
+                <GradientStop Color="#FF000342" Offset="0.9"/>
+                <GradientStop Color="#FF0F19E6" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+    <Rectangle x:Key="BrickCyan" x:Shared="False" Height="20" Width="70">
+        <Rectangle.Stroke>
+            <LinearGradientBrush EndPoint="0.52,1" StartPoint="0.48,0">
+                <GradientStop Color="#FF003436" Offset="0.91"/>
+                <GradientStop Color="#FFBEF9FF" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Stroke>
+        <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0.48,0" EndPoint="0.52,1">
+                <GradientStop Color="#FF004242" Offset="0.9"/>
+                <GradientStop Color="#FF0FE6E6" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+    <Rectangle x:Key="BrickMagenta" x:Shared="False" Height="20" Width="70">
+        <Rectangle.Stroke>
+            <LinearGradientBrush EndPoint="0.52,1" StartPoint="0.48,0">
+                <GradientStop Color="#FF360031" Offset="0.91"/>
+                <GradientStop Color="#FFFFBEF9" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Stroke>
+        <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0.48,0" EndPoint="0.52,1">
+                <GradientStop Color="#FF42003F" Offset="0.9"/>
+                <GradientStop Color="#FFE60FDC" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+    <Rectangle x:Key="BrickYellow" x:Shared="False" Height="20" Width="70">
+        <Rectangle.Stroke>
+            <LinearGradientBrush EndPoint="0.52,1" StartPoint="0.48,0">
+                <GradientStop Color="#FF313600" Offset="0.91"/>
+                <GradientStop Color="#FFFFFFBE" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Stroke>
+        <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0.48,0" EndPoint="0.52,1">
+                <GradientStop Color="#FF3F4200" Offset="0.9"/>
+                <GradientStop Color="#FFE6E60F" Offset="0.1"/>
+            </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+</ResourceDictionary>
